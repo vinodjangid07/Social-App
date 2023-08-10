@@ -388,6 +388,10 @@ body{
     }
     .mainContainer{
         padding-top: 30px;
+        gap: 20px;
+    }
+    .socialsSection{
+        height: 40%;
     }
     .signatureSection img{
         height: 37%;
