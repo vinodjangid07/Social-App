@@ -54,7 +54,7 @@ particlesJS("bg", {
         "random": true,
         "anim": {
           "enable": true,
-          "speed": 20,
+          "speed": 4,
           "size_min": 0.1,
           "sync": false
         }
