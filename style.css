@@ -386,6 +386,9 @@ body{
     html {
         font-size: 45%;  
     }
+    .mainContainer{
+        padding-top: 30px;
+    }
     .signatureSection img{
         height: 37%;
         filter: invert(1);
