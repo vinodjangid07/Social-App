@@ -289,12 +289,13 @@ body{
     width: 270px;
     height: 50px;
     border-radius: 30px;
-    border: 1px solid rgb(24, 24, 24);
+    border: 1px solid rgb(31, 31, 31);
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background-color: rgb(12, 12, 12);
+    background-color: rgba(12, 12, 12, 0.302);
+    backdrop-filter: blur(3px);
     gap: 15px;
     position: relative;
     transition: all .2s;
@@ -386,17 +387,41 @@ body{
     html {
         font-size: 45%;  
     }
+    .loader {
+        width: 20rem;
+        height: 20rem;
+      }
+      .curve text {
+        font: 2em "Fira Sans", sans-serif;
+        ;
+      }
+      
     .mainContainer{
         padding-top: 30px;
         gap: 20px;
     }
+    .aboutdescription{
+        font-size: 2rem;
+    }
     .socialsSection{
         height: 40%;
     }
+
+    .socialbuttons{
+        height: 55px;
+    }
+    .socialbuttons img{
+        height: 41px;
+    }
+    .socialbuttons p{
+        font-size: 2.1rem;
+    }
+    
     .signatureSection img{
         height: 37%;
         filter: invert(1);
     }
+
 }
 
 @media screen and (max-width:430px) {

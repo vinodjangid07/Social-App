@@ -58,14 +58,17 @@
                     <img src="./Images/favicon.png" alt="">
                     <p class="buttonname">Portfolio</p>
                 </a>
+
+                <a href="https://uiverse.io/profile/vinodjangid07" target="_blank" class="uiverse socialbuttons">
+                  <img src="./Images/uiverse.png" alt="">
+                <p class="buttonname">Uiverse</p>  
+              </a>
+              
                 <a href="https://github.com/vinodjangid07" target="_blank" class="github socialbuttons">
                     <img src="./Images/github.png" alt="">
                  <p class="buttonname">Github</p>   
                 </a>
-                <a href="https://uiverse.io/profile/vinodjangid07" target="_blank" class="uiverse socialbuttons">
-                    <img src="./Images/uiverse.png" alt="">
-                  <p class="buttonname">Uiverse</p>  
-                </a>
+               
                 <a href="https://www.linkedin.com/in/vinod-jangid-b401111a1?original_referer=" class="linkdin socialbuttons" target="_blank">
                     <img src="./Images/linkdin.png" alt="">
                   <p class="buttonname">Linkdin</p>  
@@ -86,7 +89,12 @@
         loader.style.display = "none";
         }, 3000);
   
-  
+        document.addEventListener("contextmenu", function(e){
+  if (e.target.nodeName === "IMG") {
+      e.preventDefault();
+  }
+}, false);
+
 })
 
 </script>
