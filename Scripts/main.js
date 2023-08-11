@@ -68,7 +68,7 @@ particlesJS("bg", {
       },
       "move": {
         "enable": true,
-        "speed": 1,
+        "speed": 0.5,
         "direction": "left",
         "random": false,
         "straight": true,
